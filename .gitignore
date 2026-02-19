@@ -1,0 +1,30 @@
+# =========================
+# Terraform
+# =========================
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.backup
+terraform/*.lock.hcl
+terraform/terraform.tfvars 
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# Lambda dependencies (IGNORE ALL)
+# =========================
+lambda/*
+!lambda/*.py
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# Data files
+data/
